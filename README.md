@@ -1,7 +1,6 @@
 ## Victor Silva Guedes
 
 - sguedes.victor@gmail.com
-
 - https://www.linkedin.com/in/victorsilvaguedes/
 
 # Solução teste back-end Scot Consultoria
