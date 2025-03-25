@@ -77,4 +77,4 @@ Se tudo estiver correto, você verá a mensagem:
 Dados inseridos com sucesso!
 ```
 
-Agora os dados da planilha foram inseridos no banco de dados MySQL.
+Agora os dados da planilha foram inseridos no banco de dados MySQL na tabela "graos".
