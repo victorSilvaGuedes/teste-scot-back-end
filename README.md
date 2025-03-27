@@ -87,5 +87,6 @@ Dados inseridos com sucesso!
 Agora os dados da planilha foram inseridos no banco de dados MySQL na tabela "graos".
 
 ### Vídeo demonstrativo
+Ao clicar no link, o vídeo será baixado.
 
 [🎥 Assista ao vídeo](https://github.com/victorSilvaGuedes/teste-scot-back-end/raw/main/demo-teste-backend-scot.mp4)
