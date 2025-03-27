@@ -7,9 +7,11 @@
 # Solução teste back-end Scot Consultoria
 
 ## Passo a passo para rodar a aplicação:
+
 Este guia descreve o passo a passo para rodar a aplicação que insere dados de uma planilha Excel no banco de dados MySQL.
 
 ## Pré-requisitos
+
 Antes de iniciar, certifique-se de que os seguintes softwares estão instalados:
 
 1. **Python 3**: [Download Python](https://www.python.org/downloads/)
@@ -20,6 +22,7 @@ Antes de iniciar, certifique-se de que os seguintes softwares estão instalados:
 ## Passo a Passo
 
 ### 1. Clonar ou Criar o Projeto
+
 Caso ainda não tenha o código no seu computador, crie um diretório e abra o VS Code nessa pasta.
 
 ```sh
@@ -31,6 +34,7 @@ code .
 Se o código já estiver disponível, copie os arquivos para a pasta do projeto.
 
 ### 2. Instalar Dependências
+
 No terminal do VS Code, execute:
 
 ```sh
@@ -47,6 +51,7 @@ CREATE DATABASE graos;
 ```
 
 ### 4. Configurar a Conexão com o Banco de Dados
+
 No arquivo Python, edite as credenciais de conexão se necessário:
 
 ```python
@@ -59,12 +64,15 @@ No arquivo Python, edite as credenciais de conexão se necessário:
 ```
 
 ### 5. Adicionar a Planilha `Grao.xlsx`
+
 Coloque o arquivo `Grao.xlsx` na mesma pasta do código. Ele deve conter as abas `Soja` e `Milho`, com as colunas:
+
 - **Estado**
 - **Cidade**
 - **Compra**
 
 ### 6. Executar o Script
+
 No terminal do VS Code, execute:
 
 ```sh
@@ -78,3 +86,7 @@ Dados inseridos com sucesso!
 ```
 
 Agora os dados da planilha foram inseridos no banco de dados MySQL na tabela "graos".
+
+### Vídeo demonstrativo
+
+[🎥 Assista ao vídeo](https://github.com/SEU_USUARIO/teste-scot-back-end/raw/main/demo-teste-backend-scot.mp4)
