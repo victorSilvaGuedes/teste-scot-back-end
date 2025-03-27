@@ -88,4 +88,4 @@ Agora os dados da planilha foram inseridos no banco de dados MySQL na tabela "gr
 
 ### Vídeo demonstrativo
 
-[🎥 Assista ao vídeo](https://github.com/SEU_USUARIO/teste-scot-back-end/raw/main/demo-teste-backend-scot.mp4)
+[🎥 Assista ao vídeo](https://github.com/victorSilvaGuedesO/teste-scot-back-end/raw/main/demo-teste-backend-scot.mp4)
