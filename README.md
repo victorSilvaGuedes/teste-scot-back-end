@@ -32,6 +32,7 @@ code .
 
 Se o código já estiver disponível, copie os arquivos para a pasta do projeto.
 
+---
 ### 2. Instalar Dependências
 
 No terminal do VS Code, execute:
@@ -40,6 +41,7 @@ No terminal do VS Code, execute:
 pip install pandas mysql-connector-python openpyxl
 ```
 
+---
 ### 3. Criar o Banco de Dados MySQL
 
 1. Acesse o MySQL via terminal ou ferramenta gráfica (como MySQL Workbench).
@@ -49,6 +51,7 @@ pip install pandas mysql-connector-python openpyxl
 CREATE DATABASE graos;
 ```
 
+---
 ### 4. Configurar a Conexão com o Banco de Dados
 
 No arquivo Python, edite as credenciais de conexão se necessário:
@@ -62,6 +65,7 @@ No arquivo Python, edite as credenciais de conexão se necessário:
     )
 ```
 
+---
 ### 5. Adicionar a Planilha `Grao.xlsx`
 
 Coloque o arquivo `Grao.xlsx` na mesma pasta do código. Ele deve conter as abas `Soja` e `Milho`, com as colunas:
@@ -70,6 +74,7 @@ Coloque o arquivo `Grao.xlsx` na mesma pasta do código. Ele deve conter as abas
 - **Cidade**
 - **Compra**
 
+---
 ### 6. Executar o Script
 
 No terminal do VS Code, execute:
@@ -86,6 +91,7 @@ Dados inseridos com sucesso!
 
 Agora os dados da planilha foram inseridos no banco de dados MySQL na tabela "graos".
 
+---
 ### Vídeo demonstrativo
 Ao clicar no link, o vídeo será baixado.
 
